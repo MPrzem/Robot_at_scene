@@ -32,9 +32,9 @@ int main()
 
 void lacze_inicjalizacja(PzG::LaczeDoGNUPlota & Lacze1)
 {
-    Lacze1.DodajNazwePliku("figury/robot",PzG::RR_Ciagly,2);
-    Lacze1.DodajNazwePliku("figury/robots",PzG::RR_Ciagly,2);
-    Lacze1.DodajNazwePliku("figury/przeszkody",PzG::RR_Ciagly,2);
+    Lacze1.DodajNazwePliku("../figury/robot",PzG::RR_Ciagly,2);
+    Lacze1.DodajNazwePliku("../figury/robots",PzG::RR_Ciagly,2);
+    Lacze1.DodajNazwePliku("../figury/przeszkody",PzG::RR_Ciagly,2);
 }
 
 void wyswietl_menu()
