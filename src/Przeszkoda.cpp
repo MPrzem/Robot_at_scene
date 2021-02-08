@@ -17,7 +17,7 @@ Przeszkoda::Przeszkoda(int szerokosc,int wysokosc,int X,int Y, int R)
     }
 
 bool Przeszkoda::zapisz()const{
-return ZapiszDoPliku("figury/przeszkody");
+return ZapiszDoPliku("../figury/przeszkody");
 }
 
 

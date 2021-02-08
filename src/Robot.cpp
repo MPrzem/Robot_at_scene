@@ -37,7 +37,7 @@ void Robot::JazdaNaprzod(int ile)
 
 bool Robot::zapisz() const
 {
-    return (s.ZapiszDoPliku("figury/robots"))&&(ZapiszDoPliku("figury/robot"));
+    return (s.ZapiszDoPliku("../figury/robots"))&&(ZapiszDoPliku("../figury/robot"));
 
 }
 

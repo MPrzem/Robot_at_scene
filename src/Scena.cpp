@@ -17,21 +17,21 @@ bool Scena::ZapiszDoPlikow()
 {
 //Otwieranie i zamykanie plików służy ich wyczyszczeniu
     std::ofstream fileOut;
-    fileOut.open("figury/robot");
+    fileOut.open("../figury/robot");
     if(!fileOut.good())
     {
         std::cerr<<"Otwarcie pliku nie powiodło sie";
         return false;
     }
     fileOut.close();
-    fileOut.open("figury/robots");
+    fileOut.open("../figury/robots");
     if(!fileOut.good())
     {
         std::cerr<<"Otwarcie pliku nie powiodło sie";
         return false;
     }
     fileOut.close();
-    fileOut.open("figury/przeszkody");
+    fileOut.open("../figury/przeszkody");
     if(!fileOut.good())
     {
         std::cerr<<"Otwarcie pliku nie powiodło sie";
